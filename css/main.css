@@ -1,0 +1,184 @@
+/* 
+Victoria Wellington
+Main css file to go with assignment three
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300);
+
+.container-fluid {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "Lato";
+	font-size: 16px;
+	font-weight: 300;
+	margin: 0;
+}
+
+
+
+a:link {
+	color:#0000AA;
+	text-decoration: none;
+}
+
+a:visited {
+	color:#0000AA;
+	text-decoration: none;
+}
+
+ a:hover, a:focus {
+    color: #0000EE;
+  }
+
+#menu {
+	background-color: rgba(207, 205, 140, 0.5);
+	padding: 1em;
+}
+
+/*headers */
+h1 , h2, h3 {
+	font-family: "Raleway";
+	font-weight: 300;
+}
+
+h1{
+	font-size: 300%;
+	margin: 0;
+}
+
+h2 {
+	color: #505050;
+	font-size: 150%;
+}
+
+h3 {
+	color: #505050;
+	font-size: 125%;
+} 
+
+header {
+	padding: 1em;
+	background-color: #FA5A0F;
+	border-bottom: 5px solid #EA4A00;
+	color: #FFFFFF;
+	font-family: 'Raleway';
+	margin: 0;
+}
+
+#restraunt-info {
+	padding: 1em;
+
+}
+
+#about {
+	padding: 1em;
+
+}
+
+#tagline {
+	visibility: hidden;
+}
+
+
+dl {
+	font-weight: 400;
+}
+
+dd {
+	font-size: 80%;
+	font-style: italic;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+
+footer {
+	padding: 1em;
+	border-top: 5px solid #EC791F;
+	background-color: #FC892F;
+	font-size: 80%;
+	text-align: right;
+
+}
+
+main {
+	background-image: url('../img/ricepaper_v3.png');
+	opacity: 0.9;
+}
+
+.container-fluid {
+
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+nav {
+	text-align: right;
+}
+
+nav ul, li{
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline;
+	margin-right: 1em;
+}
+
+nav a:link, a:visited {
+	color:#55E;
+	text-decoration: none;
+}
+
+nav a:focus, a:hover {
+	color: #00E;
+	text-decoration: none;
+}
+
+@media screen and (min-width: 992px) {
+  body {
+	font-size: 18px;
+
+	background-image: url('../img/background.jpg');  
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	}
+
+	#tagline {
+		visibility: visible;
+		color: #EEEEEE;
+		margin: 0;
+		font-size: 120%;
+	} 
+
+	.container-fluid {
+		margin-left: 30%;
+		margin-bottom: 20px;
+		margin-right: 20px;
+		margin-top: 20px;
+	}
+
+	nav {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+
+	header{
+		padding: 1em;
+	}
+
+
+	#restaurant-info {
+		padding: 1em;
+	}
+
+}
